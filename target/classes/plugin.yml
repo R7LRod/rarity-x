@@ -1,0 +1,25 @@
+name: RarityX
+version: 1.0.0
+main: org.r7l.rarityx.RarityX
+api-version: 1.20
+author: R7LRod
+description: A Minecraft plugin that adds dynamic rarity system to items
+website: https://github.com/R7LRod/rarity-x
+
+commands:
+  rarityx:
+    description: Main RarityX command
+    aliases: [rx, rarity]
+    usage: /rarityx <reload|help|set|info>
+    permission: rarityx.admin
+
+permissions:
+  rarityx.admin:
+    description: Access to all RarityX commands
+    default: op
+  rarityx.use:
+    description: Use RarityX features
+    default: true
+  rarityx.bypass:
+    description: Bypass rarity restrictions
+    default: false

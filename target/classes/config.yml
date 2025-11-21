@@ -1,0 +1,64 @@
+# RarityX Configuration File
+# Plugin by R7LRod
+# Version 1.0.0
+
+# General settings
+general:
+  # Assign rarity to items when they are crafted
+  assign-rarity-on-craft: true
+  
+  # Assign rarities to existing items when players join (first time only)
+  assign-rarity-on-join: false
+  
+  # Assign rarity to items when they are dropped by players
+  assign-rarity-on-drop: false
+  
+  # Prevent stacking items with different rarities
+  prevent-different-rarity-stacking: true
+
+# Probability weights for rarity assignment
+# Higher values = more likely to be assigned
+rarity-weights:
+  common: 60.0
+  uncommon: 25.0
+  rare: 10.0
+  epic: 4.0
+  mythic: 1.0
+
+# Damage/effectiveness multipliers for each rarity
+rarity-multipliers:
+  common: 1.0
+  uncommon: 1.1
+  rare: 1.25
+  epic: 1.5
+  mythic: 2.0
+
+# Buff system settings
+buffs:
+  # Enable attribute modifiers (damage, armor, etc.)
+  enable-attribute-modifiers: true
+  
+  # Enable automatic enchantment bonuses
+  enable-enchantment-bonuses: true
+  
+  # Enable special effects (critical hits, etc.)
+  enable-special-effects: true
+
+# Valuable materials get higher chances for better rarities
+valuable-materials:
+  enabled: true
+  # Multiplier for diamond gear rarity chances
+  diamond-multiplier: 2.0
+  # Multiplier for netherite gear rarity chances
+  netherite-multiplier: 3.0
+
+# Plugin messages
+messages:
+  prefix: "§8[§6RarityX§8]§r "
+  no-permission: "§cYou don't have permission to use this command!"
+  config-reloaded: "§aConfiguration reloaded successfully!"
+  player-not-found: "§cPlayer not found!"
+  invalid-rarity: "§cInvalid rarity! Valid rarities: Common, Uncommon, Rare, Epic, Mythic"
+  rarity-set: "§aRarity set to §r{rarity}§a for item in hand!"
+  no-item-in-hand: "§cYou must be holding an item!"
+  item-info: "§7Item: §f{item} §7| Rarity: {rarity}"

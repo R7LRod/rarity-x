@@ -1,0 +1,8 @@
+/workspaces/rarity-x/src/main/java/org/r7l/rarityx/listeners/PlayerListener.java
+/workspaces/rarity-x/src/main/java/org/r7l/rarityx/rarity/Rarity.java
+/workspaces/rarity-x/src/main/java/org/r7l/rarityx/RarityX.java
+/workspaces/rarity-x/src/main/java/org/r7l/rarityx/listeners/ItemListener.java
+/workspaces/rarity-x/src/main/java/org/r7l/rarityx/rarity/RarityManager.java
+/workspaces/rarity-x/src/main/java/org/r7l/rarityx/commands/RarityXCommand.java
+/workspaces/rarity-x/src/main/java/org/r7l/rarityx/config/ConfigManager.java
+/workspaces/rarity-x/src/main/java/org/r7l/rarityx/buffs/BuffManager.java
